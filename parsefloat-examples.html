@@ -1,0 +1,38 @@
+<script>
+
+// Example 1 - Simple integer number. Result is "100".
+var result = parseFloat("100");
+document.write(result);
+
+// Example 2 - Separate numbers. Result is "10".
+var result = parseFloat("10 20 30");
+document.write(result);
+
+
+// Example 3 - Mixed number and string. Result is NaN (not a number).
+var result = parseFloat("This is 10");
+document.write(result);
+
+
+// Example 4 - Again a mixed number and string example. Result is "10".
+var result = parseFloat("10 is a number");
+document.write(result);
+
+// Example 5 - Number with spaces. Result is "100".
+var result = parseFloat(" 100 ");
+document.write(result);
+
+// Example 6 - Normal float number. Result is "100.33445"
+var result = parseFloat("100.33445");
+document.write(result);
+
+
+// Example 7 - using toFixed(). Result is "100.33"
+var result = parseFloat("100.334445").toFixed(2);
+
+
+// Example 8 - With commas. Result is "10"
+var result = parseFloat("10,12")
+
+
+</script>
